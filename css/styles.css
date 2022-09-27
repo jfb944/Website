@@ -42,18 +42,20 @@ li a {
     width: 80%;
     display: block;
     text-align: center;
-    margin: 0.5em 1em 1em 4em; 
+    margin: 0.1em 1em 1em 2.55em; 
     padding: 1em 3em 1em 3em;
     background-color: #CCCCCC;
     border-left: 5px solid black;
     border-right: 5px solid black;
+    border-radius: 10px;
+    font-size: 20px;
 
 }
 footer {
     opacity: 10%;
 }
   
-  /* Change the link color to #111 (black) on hover */
+
 li a:hover {
     background-color: #111;
 }
@@ -67,20 +69,9 @@ header {
     text-align: center;
     margin: 5px;
     padding: .5em;
+    border-radius: 10px;
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-h3 {
-    color: #000;
-}
-figcaption {
-    text-align: center;
-    font-size: 10px;
-    color: #734838;
-}
 
 a:link, a:visited {
     color: #CCCCCC;
@@ -92,4 +83,12 @@ a:active, a:hover {
     background-color: antiquewhite;
 }
 
+.screen {
+    height: 300px;
+    width: 500px;
+}
 
+img {
+    border: 10px solid white;
+    border-radius: 10px; 
+}
